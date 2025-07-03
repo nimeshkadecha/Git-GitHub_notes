@@ -22,6 +22,7 @@
 > `git clone <url>` - get all files from remote to your empty folder <url of repo>
 
 > `git log` - Shows the history of the project.
+> `git log --oneline` - Only show the Hash and commit Message
 
 > `git stash` - save code without a commit
 >
