@@ -3,7 +3,7 @@
 ## Most useful git commands
 > `git init` - to initialize git
 
-> `git add .` - add all files to staging
+> `git add .` - add all files to staging area
 >
 > `git add <fileName>` - To add specific Files
 
@@ -49,8 +49,10 @@
 ## Branch Commands in git
 > `git branch <b-name>` - create branches
 
+> `git branch -d <b-name>` - Delete branche
+
 > `git checkout <b-name>` - switch branch
->
+> `git switch <b-name>` - work same as checkout
 > `git checkout -b <b-name>` - To create and checkout branch at the same time
 
 > `git merge <b-name>` - merge branches
