@@ -16,6 +16,10 @@
 > `git push <origin> <branch>` - to push into specific branch
 >
 > `git push <origin> <branch> -f` - When remote has more commits than local repo, we have to fours push
+>
+> `git push <origin> -u <branch>` - The `-u` is for setting up so we dont have to run the next command... 
+>
+> `git push --set-upstream <remote_name> <branch>` - this will setup the upstream branch so next time by just typing the `git push` it will push to that remote and that specifick branch we just set
 
 > `git pull` - get the latest code from the remote repo
 
@@ -39,7 +43,7 @@
 
 > `git fetch --all --prune` - This will fetch data of all Branches(--all) and even get deleted files (--prune)
 
-> `git pull <upstream> <branch>` - This will also do the same as fetch
+> `git pull <upstream> <branch>` - This will also do the same as fetch This will be fetch and merge
 
 ## Initialize username and password in Git
 > `git config --global user.name <your_username>` - use it to set the username
@@ -52,6 +56,9 @@
 > `git remote add <upstream> <url>` - To add an upstream URL (URL of the original repo from which we have forked to our account)
 >
 > `git remote -v` - show all repos connected to the folder
+>
+> `git remote rename` - this can rename
+
 
 ## Branch Commands in git
 > `git branch <b-name>` - create branches
@@ -102,9 +109,6 @@
 
 ## Git diff
 > Used to see the differance between same files... 
-
-
-
-learn it here 
+ 
 
 [visualize the learning](https://learngitbranching.js.org/)
