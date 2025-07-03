@@ -87,7 +87,9 @@
 > `git restore --staged <fileName>` - remove file from staged
 
 ## Rebase in Git
+> [!CAUTION] DO NOT RUN ON MAIN / MASTER 
 > `git rebase -i <hash of commit>` - This will open a window where we can pick a commit and squash(s) other commits into one single commit (Merge multiple commits into a single commit). Check the description for more information
+>   
 
 ## Merge conflict in Git
 > Merge conflict happens when two separate branches change in the same file and the same lines... Then Git will get confused about which line changes should be taken... and we have to select whose(which branch) changes should stay manually...
@@ -98,3 +100,9 @@
 
 ## Git diff
 > Used to see the differance between same files... 
+
+
+
+learn it here 
+
+[visualize the learning](https://learngitbranching.js.org/)
