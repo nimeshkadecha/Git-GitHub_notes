@@ -87,7 +87,9 @@
 > `git restore --staged <fileName>` - remove file from staged
 
 ## Rebase in Git
-[!CAUTION] DO NOT RUN ON MAIN / MASTER 
+> [!CAUTION]
+> DO NOT RUN ON MAIN / MASTER
+> 
 > `git rebase -i <hash of commit>` - This will open a window where we can pick a commit and squash(s) other commits into one single commit (Merge multiple commits into a single commit). Check the description for more information
 >   
 
