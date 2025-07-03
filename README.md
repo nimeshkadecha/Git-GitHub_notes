@@ -1,4 +1,4 @@
-# Git - GitHub
+# Git -- GitHub
 
 ## Most useful git commands
 > `git init` - to initialize git
