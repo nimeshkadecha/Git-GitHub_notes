@@ -1,4 +1,4 @@
-# Git -- GitHub
+# Git - GitHub
 
 ## Most useful git commands
 > `git init` - to initialize git
@@ -24,11 +24,18 @@
 > `git log` - Shows the history of the project.
 > `git log --oneline` - Only show the Hash and commit Message
 
+#### stash 
+> Can move from one branch to another... (stash in branch 1 and can pop stash in branch 2)
 > `git stash` - save code without a commit
 >
 > `git stash pop` - to get all changes we saved
 >
 > `git stash clear` - to delete all those changes that are stashed
+>
+> `git stash list` - this will list all the stashed files
+>
+> `git stash apply <stashnameFormStashList>` - this will only pop the code from that stash
+
 
 > `git fetch --all --prune` - This will fetch data of all Branches(--all) and even get deleted files (--prune)
 
@@ -87,3 +94,7 @@
 
 ## Git Ignore files
 > `.ignore` - files & folders that should be ignored are named here
+
+
+## Git diff
+> Used to see the differance between same files... 
